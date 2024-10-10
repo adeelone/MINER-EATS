@@ -53,7 +53,8 @@ public class CL1_Ramirez{
 			
 					}catch(FileNotFoundException e){
 						System.out.println("File Not Found " + e.getMessage());
-					}					
+					}	
+					fscan.close(0);	
 					//menu switch end
 				break;
 				//end menu switch and start view cart switch
